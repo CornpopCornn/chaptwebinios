@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1CB26B92B0C1DF300EAED35 /* Kreo_KitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB26B82B0C1DF300EAED35 /* Kreo_KitApp.swift */; };
+		D1CB26BB2B0C1DF300EAED35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB26BA2B0C1DF300EAED35 /* ContentView.swift */; };
+		D1CB26BD2B0C1DF300EAED35 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB26BC2B0C1DF300EAED35 /* Item.swift */; };
+		D1CB26BF2B0C1DF400EAED35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CB26BE2B0C1DF400EAED35 /* Assets.xcassets */; };
+		D1CB26C22B0C1DF400EAED35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1CB26C12B0C1DF400EAED35 /* Preview Assets.xcassets */; };
+		D1CB26CE2B0C1DF400EAED35 /* Kreo_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB26CD2B0C1DF400EAED35 /* Kreo_KitTests.swift */; };
+		D1CB26D82B0C1DF400EAED35 /* Kreo_KitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB26D72B0C1DF400EAED35 /* Kreo_KitUITests.swift */; };
+		D1CB26DA2B0C1DF400EAED35 /* Kreo_KitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CB26D92B0C1DF400EAED35 /* Kreo_KitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1CB26CA2B0C1DF400EAED35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1CB26AD2B0C1DF300EAED35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1CB26B42B0C1DF300EAED35;
+			remoteInfo = "Kreo Kit";
+		};
+		D1CB26D42B0C1DF400EAED35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1CB26AD2B0C1DF300EAED35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1CB26B42B0C1DF300EAED35;
+			remoteInfo = "Kreo Kit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1CB26B52B0C1DF300EAED35 /* Kreo Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kreo Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CB26B82B0C1DF300EAED35 /* Kreo_KitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kreo_KitApp.swift; sourceTree = "<group>"; };
+		D1CB26BA2B0C1DF300EAED35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1CB26BC2B0C1DF300EAED35 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D1CB26BE2B0C1DF400EAED35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1CB26C12B0C1DF400EAED35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D1CB26C32B0C1DF400EAED35 /* Kreo_Kit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kreo_Kit.entitlements; sourceTree = "<group>"; };
+		D1CB26C42B0C1DF400EAED35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1CB26C92B0C1DF400EAED35 /* Kreo KitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kreo KitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CB26CD2B0C1DF400EAED35 /* Kreo_KitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kreo_KitTests.swift; sourceTree = "<group>"; };
+		D1CB26D32B0C1DF400EAED35 /* Kreo KitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kreo KitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CB26D72B0C1DF400EAED35 /* Kreo_KitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kreo_KitUITests.swift; sourceTree = "<group>"; };
+		D1CB26D92B0C1DF400EAED35 /* Kreo_KitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kreo_KitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1CB26B22B0C1DF300EAED35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CB26C62B0C1DF400EAED35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CB26D02B0C1DF400EAED35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1CB26AC2B0C1DF300EAED35 = {
+			isa = PBXGroup;
+			children = (
+				D1CB26B72B0C1DF300EAED35 /* Kreo Kit */,
+				D1CB26CC2B0C1DF400EAED35 /* Kreo KitTests */,
+				D1CB26D62B0C1DF400EAED35 /* Kreo KitUITests */,
+				D1CB26B62B0C1DF300EAED35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1CB26B62B0C1DF300EAED35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1CB26B52B0C1DF300EAED35 /* Kreo Kit.app */,
+				D1CB26C92B0C1DF400EAED35 /* Kreo KitTests.xctest */,
+				D1CB26D32B0C1DF400EAED35 /* Kreo KitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1CB26B72B0C1DF300EAED35 /* Kreo Kit */ = {
+			isa = PBXGroup;
+			children = (
+				D1CB26B82B0C1DF300EAED35 /* Kreo_KitApp.swift */,
+				D1CB26BA2B0C1DF300EAED35 /* ContentView.swift */,
+				D1CB26BC2B0C1DF300EAED35 /* Item.swift */,
+				D1CB26BE2B0C1DF400EAED35 /* Assets.xcassets */,
+				D1CB26C32B0C1DF400EAED35 /* Kreo_Kit.entitlements */,
+				D1CB26C42B0C1DF400EAED35 /* Info.plist */,
+				D1CB26C02B0C1DF400EAED35 /* Preview Content */,
+			);
+			path = "Kreo Kit";
+			sourceTree = "<group>";
+		};
+		D1CB26C02B0C1DF400EAED35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D1CB26C12B0C1DF400EAED35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D1CB26CC2B0C1DF400EAED35 /* Kreo KitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1CB26CD2B0C1DF400EAED35 /* Kreo_KitTests.swift */,
+			);
+			path = "Kreo KitTests";
+			sourceTree = "<group>";
+		};
+		D1CB26D62B0C1DF400EAED35 /* Kreo KitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1CB26D72B0C1DF400EAED35 /* Kreo_KitUITests.swift */,
+				D1CB26D92B0C1DF400EAED35 /* Kreo_KitUITestsLaunchTests.swift */,
+			);
+			path = "Kreo KitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1CB26B42B0C1DF300EAED35 /* Kreo Kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1CB26DD2B0C1DF400EAED35 /* Build configuration list for PBXNativeTarget "Kreo Kit" */;
+			buildPhases = (
+				D1CB26B12B0C1DF300EAED35 /* Sources */,
+				D1CB26B22B0C1DF300EAED35 /* Frameworks */,
+				D1CB26B32B0C1DF300EAED35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kreo Kit";
+			productName = "Kreo Kit";
+			productReference = D1CB26B52B0C1DF300EAED35 /* Kreo Kit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1CB26C82B0C1DF400EAED35 /* Kreo KitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1CB26E02B0C1DF400EAED35 /* Build configuration list for PBXNativeTarget "Kreo KitTests" */;
+			buildPhases = (
+				D1CB26C52B0C1DF400EAED35 /* Sources */,
+				D1CB26C62B0C1DF400EAED35 /* Frameworks */,
+				D1CB26C72B0C1DF400EAED35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1CB26CB2B0C1DF400EAED35 /* PBXTargetDependency */,
+			);
+			name = "Kreo KitTests";
+			productName = "Kreo KitTests";
+			productReference = D1CB26C92B0C1DF400EAED35 /* Kreo KitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1CB26D22B0C1DF400EAED35 /* Kreo KitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1CB26E32B0C1DF400EAED35 /* Build configuration list for PBXNativeTarget "Kreo KitUITests" */;
+			buildPhases = (
+				D1CB26CF2B0C1DF400EAED35 /* Sources */,
+				D1CB26D02B0C1DF400EAED35 /* Frameworks */,
+				D1CB26D12B0C1DF400EAED35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1CB26D52B0C1DF400EAED35 /* PBXTargetDependency */,
+			);
+			name = "Kreo KitUITests";
+			productName = "Kreo KitUITests";
+			productReference = D1CB26D32B0C1DF400EAED35 /* Kreo KitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1CB26AD2B0C1DF300EAED35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D1CB26B42B0C1DF300EAED35 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D1CB26C82B0C1DF400EAED35 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D1CB26B42B0C1DF300EAED35;
+					};
+					D1CB26D22B0C1DF400EAED35 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D1CB26B42B0C1DF300EAED35;
+					};
+				};
+			};
+			buildConfigurationList = D1CB26B02B0C1DF300EAED35 /* Build configuration list for PBXProject "Kreo Kit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1CB26AC2B0C1DF300EAED35;
+			productRefGroup = D1CB26B62B0C1DF300EAED35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1CB26B42B0C1DF300EAED35 /* Kreo Kit */,
+				D1CB26C82B0C1DF400EAED35 /* Kreo KitTests */,
+				D1CB26D22B0C1DF400EAED35 /* Kreo KitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1CB26B32B0C1DF300EAED35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CB26C22B0C1DF400EAED35 /* Preview Assets.xcassets in Resources */,
+				D1CB26BF2B0C1DF400EAED35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CB26C72B0C1DF400EAED35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CB26D12B0C1DF400EAED35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1CB26B12B0C1DF300EAED35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CB26BB2B0C1DF300EAED35 /* ContentView.swift in Sources */,
+				D1CB26BD2B0C1DF300EAED35 /* Item.swift in Sources */,
+				D1CB26B92B0C1DF300EAED35 /* Kreo_KitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CB26C52B0C1DF400EAED35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CB26CE2B0C1DF400EAED35 /* Kreo_KitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CB26CF2B0C1DF400EAED35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CB26DA2B0C1DF400EAED35 /* Kreo_KitUITestsLaunchTests.swift in Sources */,
+				D1CB26D82B0C1DF400EAED35 /* Kreo_KitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1CB26CB2B0C1DF400EAED35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1CB26B42B0C1DF300EAED35 /* Kreo Kit */;
+			targetProxy = D1CB26CA2B0C1DF400EAED35 /* PBXContainerItemProxy */;
+		};
+		D1CB26D52B0C1DF400EAED35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1CB26B42B0C1DF300EAED35 /* Kreo Kit */;
+			targetProxy = D1CB26D42B0C1DF400EAED35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D1CB26DB2B0C1DF400EAED35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1CB26DC2B0C1DF400EAED35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1CB26DE2B0C1DF400EAED35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Kreo Kit/Kreo_Kit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kreo Kit/Preview Content\"";
+				DEVELOPMENT_TEAM = H4CFAZB54D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kreo Kit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maorfattal.Kreo-Kit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1CB26DF2B0C1DF400EAED35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Kreo Kit/Kreo_Kit.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kreo Kit/Preview Content\"";
+				DEVELOPMENT_TEAM = H4CFAZB54D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kreo Kit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maorfattal.Kreo-Kit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1CB26E12B0C1DF400EAED35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4CFAZB54D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maorfattal.Kreo-KitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kreo Kit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kreo Kit";
+			};
+			name = Debug;
+		};
+		D1CB26E22B0C1DF400EAED35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4CFAZB54D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maorfattal.Kreo-KitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kreo Kit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kreo Kit";
+			};
+			name = Release;
+		};
+		D1CB26E42B0C1DF400EAED35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4CFAZB54D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maorfattal.Kreo-KitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kreo Kit";
+			};
+			name = Debug;
+		};
+		D1CB26E52B0C1DF400EAED35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4CFAZB54D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maorfattal.Kreo-KitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kreo Kit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1CB26B02B0C1DF300EAED35 /* Build configuration list for PBXProject "Kreo Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1CB26DB2B0C1DF400EAED35 /* Debug */,
+				D1CB26DC2B0C1DF400EAED35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1CB26DD2B0C1DF400EAED35 /* Build configuration list for PBXNativeTarget "Kreo Kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1CB26DE2B0C1DF400EAED35 /* Debug */,
+				D1CB26DF2B0C1DF400EAED35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1CB26E02B0C1DF400EAED35 /* Build configuration list for PBXNativeTarget "Kreo KitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1CB26E12B0C1DF400EAED35 /* Debug */,
+				D1CB26E22B0C1DF400EAED35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1CB26E32B0C1DF400EAED35 /* Build configuration list for PBXNativeTarget "Kreo KitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1CB26E42B0C1DF400EAED35 /* Debug */,
+				D1CB26E52B0C1DF400EAED35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1CB26AD2B0C1DF300EAED35 /* Project object */;
+}
